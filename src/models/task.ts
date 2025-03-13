@@ -1,4 +1,5 @@
 export class Task {
+    private id: string | undefined;
     private title: string;
     private description: string;
     private dueDate: Date;

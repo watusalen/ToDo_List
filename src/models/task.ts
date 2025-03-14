@@ -24,11 +24,11 @@ export class Task {
         this.dueDate = newDueDate;
     }
 
-    setID(id: string): void {
+    public setID(id: string): void {
         this.id = id;
     }
 
-    getID(): string | undefined {
+    public getID(): string | undefined {
         return this.id;
     }
 
